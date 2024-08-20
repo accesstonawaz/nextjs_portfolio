@@ -16,10 +16,10 @@ function Typing (){
         500
       ]}
       wrapper="span"
-      speed={10}
+      speed={40}
       preRenderFirstString={true}
-      style={{ marginLeft: '5px', fontSize: '1em', textAlign: 'left', color: "#1320d1", fontWeight: 'bold', display: 'inline-block', width: '43.5%'}}
-      repeat={2}
+      style={{ marginLeft: '5px', fontSize: '1em', textAlign: 'left', color: "#fa8a28", fontWeight: 'bolder', display: 'inline-block', width: '44.5%'}}
+      repeat={Infinity}
     />
   );
 };

@@ -14,9 +14,9 @@ const config: Config = {
     },
     extend: {
       colors: {
-        lightcyan: '#84ffff',
-        gradientLeft: '#d2ed05',
-        gradientRight: '#8db0f2',
+        lightcyan: '#fc03e3',
+        gradientLeft: '#120e0e',
+        gradientRight: '#0a0100',
       },
       animation: {
         scalepulse: "scalepulse 8s ease-in-out infinite",

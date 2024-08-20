@@ -8,12 +8,15 @@ function Navbar() {
 
     const isAtTop = useScrollPos();
 
-    return <div className={`mobile:hidden sticky -mt-14 top-0 z-50 ${isAtTop?'opacity-100':'opacity-0 hover:opacity-100 transition-opacity duration-500'} flex justify-end items-center h-14 w-full bg-gradient-to-r from-transparent to-black text-white`} >
-        <div className="flex justify-around text-2xl w-1/2 items-center">
+    return <div className={`mobile:hidden sticky -mt-14 top-0 z-50 ${isAtTop ? 'opacity-100' : 'opacity-0 hover:opacity-100 transition-opacity duration-500'} flex justify-end items-center h-14 w-full bg-gradient-to-r from-transparent to-transparent text-#fa8a28`} >
+        <div className="flex justify-around sticky -mt-14 top-0 z-50 text-3xl w-1/2 items-center text-white">
+            <MenuItem title={"Home"} />
             <MenuItem title={"About"} />
             <MenuItem title={"Projects"} />
             <MenuItem title={"Services"} />
             <MenuItem title={"Contact"} />
+
+
         </div>
     </div>
 }

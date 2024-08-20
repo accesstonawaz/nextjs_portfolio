@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1440 320" transform="rotate(180)">
     <defs>
-        <filter id="a" x="-50%" y="-50%" width="200%" height="200%">
-            <feOffset dy="20" />
-            <feGaussianBlur stdDeviation="8" result="offset-blur" />
-            <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse" />
-            <feFlood flood-color="#000" flood-opacity=".5" result="color" />
-            <feComposite operator="in" in="color" in2="inverse" result="shadow" />
-            <feComposite in="shadow" in2="SourceGraphic" />
+        <linearGradient id="a" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="40%" stop-color="#fa8a28" />
+            <stop offset="60%" stop-color="#3cd2ec" /> 
+        </linearGradient>
+        <filter id="b" width="120" height="120">
+            <feOffset in="SourceAlpha" dy="20" />
+            <feGaussianBlur stdDeviation="8" />
+            <feBlend in="SourceGraphic" in2="blurOut" />
         </filter>
     </defs>
-    <path fill="#1E293B" filter="url(#a)"
+    <path fill="url(#a)" filter="url(#b)"
         d="M0 288V96h51.4v96h51.5v-64h51.4V64h51.4V32h51.4v64H360v32h51.4v64h51.5v-64h51.4v64h51.4v-32h51.4v-32h51.5v32H720v96h51.4V64h51.5v64h51.4V0h51.4v128h51.4V64H1080v160h51.4V96h51.5V32h51.4v256h51.4V160h51.4V64h51.5v32h51.4v224H0z" />
 </svg>

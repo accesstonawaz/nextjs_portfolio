@@ -21,7 +21,7 @@ const ContactBtn = ({title}:{title:string}) => {
     }, [isModalOpen]);
     
     return (<button className='flex items-center cursor-pointer'>
-        <div aria-label={title} className={"transition ease-in-out duration-300 text-center border-2 border-white rounded-3xl px-3 py-1 hover:bg-white hover:text-black"} onClick={handleClick} >{title}</div>
+        <div aria-label={title} className={"transition ease-in-out duration-300 text-center border-2 border-white rounded-full text-[40px] px-4 py-2 hover:bg-orange-400 hover:text-black hover:border-blue-400"} onClick={handleClick} >{title}</div>
         </button>
     );
 }

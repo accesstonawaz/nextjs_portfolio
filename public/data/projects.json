@@ -2,23 +2,23 @@
     "data": [
         {
             "title": "Portfolio Website",
-            "image": "/images/PortfolioWebsite.webp",
-            "link": "",
-            "tags": ["Next.js", "Javascript", "Redux", "MUI"],
+            "image": "/images/Portfolioimage.png",
+            "link": "http://localhost:3000/",
+            "tags": ["Next.js", "Typescript", "Tailwind CSS"],
             "text": "A portfolio website with responsive design that highlights professional work and services"
         },
         {
-            "title": "Trading App",
-            "image": "/images/TradingApp.webp",
-            "link": "",
-            "tags": ["Next.js", "Typescript", "Tailwind CSS"],
+            "title": "IT Company Website",
+            "image": "/images/Dynamatics.png",
+            "link": "https://dynamatics.co/",
+            "tags": ["HTML", "CSS", "Javascript"],
             "text": "A single-page application with responsive design that highlights professional work"
         },
         {
-            "title": "Photo Website",
-            "image": "/images/PhotoWebsite.webp",
-            "link": "",
-            "tags": ["React.js", "Typescript", "Tailwind CSS", "Redux"],
+            "title": "E-Commerce Website",
+            "image": "/images/Dynamic.png",
+            "link": "https://dynamic.dynamatics.co/",
+            "tags": ["Wordpress", "Elemenator"],
             "text": "A website to curate and share photos that capture life's most memorable moments."
         }
     ]

@@ -4,6 +4,7 @@ import MenuItem from './MenuItem';
 function Menu (){
 
     return (<>
+        <MenuItem title={"Home"}/>
         <MenuItem title={"About"}/>
         <MenuItem title={"Projects"}/>
         <MenuItem title={"Services"}/>
